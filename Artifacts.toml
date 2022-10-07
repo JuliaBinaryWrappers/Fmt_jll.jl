@@ -1,0 +1,92 @@
+[[Fmt]]
+arch = "aarch64"
+git-tree-sha1 = "55e6e3802572492035bf129be97c291e37f5ecaf"
+os = "macos"
+
+    [[Fmt.download]]
+    sha256 = "9453a256516c1895102e80240348539bcec74157aa96ccadeaee2c9edcb9d56d"
+    url = "https://github.com/JuliaBinaryWrappers/Fmt_jll.jl/releases/download/Fmt-v9.1.0+0/Fmt.v9.1.0.aarch64-apple-darwin.tar.gz"
+[[Fmt]]
+arch = "aarch64"
+cxxstring_abi = "cxx03"
+git-tree-sha1 = "6588d0ee585572bebb138e4df9e8892c85172246"
+libc = "glibc"
+os = "linux"
+
+    [[Fmt.download]]
+    sha256 = "0b0b301445a80d3b35d71ba17a60061705d8c970dbb87c3bf3f87f497045a17f"
+    url = "https://github.com/JuliaBinaryWrappers/Fmt_jll.jl/releases/download/Fmt-v9.1.0+0/Fmt.v9.1.0.aarch64-linux-gnu-cxx03.tar.gz"
+[[Fmt]]
+arch = "aarch64"
+cxxstring_abi = "cxx11"
+git-tree-sha1 = "fa1ebf01690959e7cc614a6e5d8a28b793c10b70"
+libc = "glibc"
+os = "linux"
+
+    [[Fmt.download]]
+    sha256 = "abf973bc76363abb372884e2cf863b2e33f13764d3b50a3f2004072c96cb863c"
+    url = "https://github.com/JuliaBinaryWrappers/Fmt_jll.jl/releases/download/Fmt-v9.1.0+0/Fmt.v9.1.0.aarch64-linux-gnu-cxx11.tar.gz"
+[[Fmt]]
+arch = "i686"
+cxxstring_abi = "cxx03"
+git-tree-sha1 = "150e78dbb18e56659008cfa5460f7474bc90b530"
+os = "windows"
+
+    [[Fmt.download]]
+    sha256 = "bb076f261cde3c0a8182ed5a681875a2b7e974d525db624c33d06d74dd3eaebe"
+    url = "https://github.com/JuliaBinaryWrappers/Fmt_jll.jl/releases/download/Fmt-v9.1.0+0/Fmt.v9.1.0.i686-w64-mingw32-cxx03.tar.gz"
+[[Fmt]]
+arch = "i686"
+cxxstring_abi = "cxx11"
+git-tree-sha1 = "cdac31ceb4f56e0b4e8ab8e4ebb533c29ae60800"
+os = "windows"
+
+    [[Fmt.download]]
+    sha256 = "7deb3551e29ade3a2f570894f0bd49d64e77ebdabe3b68eaf11738aa41008f5f"
+    url = "https://github.com/JuliaBinaryWrappers/Fmt_jll.jl/releases/download/Fmt-v9.1.0+0/Fmt.v9.1.0.i686-w64-mingw32-cxx11.tar.gz"
+[[Fmt]]
+arch = "x86_64"
+git-tree-sha1 = "1b8e2a2ccad7d2710d773b9db18913b760126fe3"
+os = "macos"
+
+    [[Fmt.download]]
+    sha256 = "3e152fcd155c3055c7b47c9554556fd5349e9ec49c0ad29adff0107b43ac37fe"
+    url = "https://github.com/JuliaBinaryWrappers/Fmt_jll.jl/releases/download/Fmt-v9.1.0+0/Fmt.v9.1.0.x86_64-apple-darwin.tar.gz"
+[[Fmt]]
+arch = "x86_64"
+cxxstring_abi = "cxx03"
+git-tree-sha1 = "c4e4356b927731cdaab230cd60b3102e0eb0825e"
+libc = "glibc"
+os = "linux"
+
+    [[Fmt.download]]
+    sha256 = "e0bd6b0e673974b9d5782fa5d4b750f285b877ca55030d0b5909428b7020e390"
+    url = "https://github.com/JuliaBinaryWrappers/Fmt_jll.jl/releases/download/Fmt-v9.1.0+0/Fmt.v9.1.0.x86_64-linux-gnu-cxx03.tar.gz"
+[[Fmt]]
+arch = "x86_64"
+cxxstring_abi = "cxx11"
+git-tree-sha1 = "179701df9d4406f26f17acaeef6360b61079e9b8"
+libc = "glibc"
+os = "linux"
+
+    [[Fmt.download]]
+    sha256 = "d99870082a8f5984bd85adf56324c71768e0fdd8e76191d1e04186b88b803401"
+    url = "https://github.com/JuliaBinaryWrappers/Fmt_jll.jl/releases/download/Fmt-v9.1.0+0/Fmt.v9.1.0.x86_64-linux-gnu-cxx11.tar.gz"
+[[Fmt]]
+arch = "x86_64"
+cxxstring_abi = "cxx03"
+git-tree-sha1 = "f82f0c3091ecdbf49b666da4bade7358cece0933"
+os = "windows"
+
+    [[Fmt.download]]
+    sha256 = "daac9433f6392ca82045051cf462aab8f6cfcb7d07dd3f6ce4bed93f37e6dad8"
+    url = "https://github.com/JuliaBinaryWrappers/Fmt_jll.jl/releases/download/Fmt-v9.1.0+0/Fmt.v9.1.0.x86_64-w64-mingw32-cxx03.tar.gz"
+[[Fmt]]
+arch = "x86_64"
+cxxstring_abi = "cxx11"
+git-tree-sha1 = "089b8709d9f46f878b126ec7b2340424d1dc72e5"
+os = "windows"
+
+    [[Fmt.download]]
+    sha256 = "bde57573ba53e58c5ac98bfce6199c5450578bd80c27267662f9fb1d60e7b1f5"
+    url = "https://github.com/JuliaBinaryWrappers/Fmt_jll.jl/releases/download/Fmt-v9.1.0+0/Fmt.v9.1.0.x86_64-w64-mingw32-cxx11.tar.gz"
