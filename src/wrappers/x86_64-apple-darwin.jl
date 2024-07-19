@@ -2,12 +2,12 @@
 export libfmt
 
 JLLWrappers.@generate_wrapper_header("Fmt")
-JLLWrappers.@declare_library_product(libfmt, "@rpath/libfmt.9.dylib")
+JLLWrappers.@declare_library_product(libfmt, "@rpath/libfmt.11.dylib")
 function __init__()
     JLLWrappers.@generate_init_header()
     JLLWrappers.@init_library_product(
         libfmt,
-        "lib/libfmt.9.1.0.dylib",
+        "lib/libfmt.11.0.1.dylib",
         RTLD_LAZY | RTLD_DEEPBIND,
     )
 

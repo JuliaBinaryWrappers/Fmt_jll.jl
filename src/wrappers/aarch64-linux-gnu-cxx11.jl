@@ -2,7 +2,7 @@
 export libfmt
 
 JLLWrappers.@generate_wrapper_header("Fmt")
-JLLWrappers.@declare_library_product(libfmt, "libfmt.so.9")
+JLLWrappers.@declare_library_product(libfmt, "libfmt.so.11")
 function __init__()
     JLLWrappers.@generate_init_header()
     JLLWrappers.@init_library_product(
