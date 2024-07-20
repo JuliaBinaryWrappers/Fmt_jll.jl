@@ -7,7 +7,7 @@ function __init__()
     JLLWrappers.@generate_init_header()
     JLLWrappers.@init_library_product(
         libfmt,
-        "lib/libfmt.11.0.1.dylib",
+        "lib/libfmt.11.0.2.dylib",
         RTLD_LAZY | RTLD_DEEPBIND,
     )
 
